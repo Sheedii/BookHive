@@ -2,10 +2,10 @@ package com.shedi.book.book;
 
 import com.shedi.book.common.PageResponse;
 import com.shedi.book.exception.OperationNotPermittedException;
+import com.shedi.book.file.FileStorageService;
 import com.shedi.book.history.BookTransactionHistory;
 import com.shedi.book.history.BookTransactionHistoryRepository;
 import com.shedi.book.user.User;
-import com.shedi.book.book.Book;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -14,6 +14,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 import java.util.Objects;
@@ -26,6 +27,7 @@ public class BookService {
     private final BookMapper bookMapper;
     private final BookRepository bookRepository;
     private final BookTransactionHistoryRepository transactionHistoryRepository;
+    private final FileStorageService fileStorageService;
     public Integer save(BookRequest request, Authentication connectedUser){
         User user = ((User) connectedUser.getPrincipal());
         Book book = bookMapper.toBook(request);
@@ -195,4 +197,14 @@ public class BookService {
         bookTransactionHistory.setReturnApproved(true);
         return  transactionHistoryRepository.save(bookTransactionHistory).getId();
     }
+
+    public void uploadBookCoverPicture(MultipartFile file, Authentication connectedUser, Integer bookId) {
+        Book book = bookRepository.findById(bookId)
+                .orElseThrow(() -> new EntityNotFoundException("No book found with the ID:: " + bookId));
+        User user = ((User) connectedUser.getPrincipal());
+        var bookCover = fileStorageService.saveFile(file, user.getId());
+        book.setBookCover(bookCover);
+        bookRepository.save(book);
+    }
+
 }
