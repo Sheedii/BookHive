@@ -37,7 +37,7 @@
 
 ## Technologies Used
 
-### Backend (BookHive)
+### Backend (Book-network)
 - Spring Boot 3
 - Spring Security 6
 - JWT Token Authentication

@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ffcb2e6-0fbe-4ddd-bb33-d244377e080b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/file/FileStorageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/book/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/book/BookMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/book/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shedi.book.feedback" />
       <recent name="com.shedi.book.file" />
       <recent name="com.shedi.book.exception" />
       <recent name="com.shedi.book.book" />
       <recent name="com.shedi.book.common" />
-      <recent name="com.shedi.book.handler" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BookNetworkApiApplication">
@@ -138,7 +133,7 @@
       <workItem from="1735120865574" duration="7114000" />
       <workItem from="1738071136155" duration="2394000" />
       <workItem from="1738073555100" duration="25588000" />
-      <workItem from="1738310140872" duration="9749000" />
+      <workItem from="1738310140872" duration="14428000" />
     </task>
     <servers />
   </component>
