@@ -30,7 +30,7 @@ export class LoginComponent {
         this.router.navigate(['books'])
       },
       error: (err) => {
-        console.log(err);
+        console.log('err',err);
         if (err.error.validationErrors){
           this.errorMsg = err.error.validationErrors
         } else {

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ffcb2e6-0fbe-4ddd-bb33-d244377e080b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/swagger-settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/config/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-hive-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-hive-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-hive-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-hive-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-hive-ui/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-hive-ui/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-hive-ui/src/app/services/token/token.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-hive-ui/src/app/services/token/token.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/security/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/shedi/book/security/JwtFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,9 @@
       <workItem from="1738310140872" duration="17084000" />
       <workItem from="1738506438227" duration="417000" />
       <workItem from="1738587622790" duration="7605000" />
-      <workItem from="1738659956444" duration="8810000" />
+      <workItem from="1738659956444" duration="9334000" />
+      <workItem from="1738747579845" duration="22357000" />
+      <workItem from="1739181860161" duration="5229000" />
     </task>
     <servers />
   </component>
